@@ -140,7 +140,6 @@ table{
   left: 46px;
   top: 289px;
 
-  
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -150,19 +149,20 @@ table{
 
   color: #858585;
 }
-article table tr td{
+article table tr{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 110px;
   
+}
+article table tr td{
   width: 22px;
   height: 53px;
   left: 178px;
   top: 289px;
- 
   letter-spacing: -0.24px;
+}
 
-}
-article table .number__line .n1{
-  margin-right: 110px;
-}
 /******************* 
  nav section 
  ******************/
